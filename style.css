@@ -12,9 +12,10 @@
     html { 
         box-sizing: border-box;
         font-size: 62.5%;
-       
       }
-      
+      @media (max-width: 1000px ) {body{font-size: 85%;}
+          
+      }
 
       body{ width: min(90%  120rem);}
 
