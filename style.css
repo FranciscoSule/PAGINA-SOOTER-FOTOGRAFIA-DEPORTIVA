@@ -149,6 +149,11 @@ grid-template-columns: 30% 70%;}.margenarriba{margin-top: 10rem}
 .iconcontacto {background-color: var(--primary); border-radius: 1rem;
 margin:0 1rem 1rem 1rem;}
 
+@media (max-width: 1000px) {
+    .icono svg{width: 8rem; height: 8rem;}   
+}
+
+
 .contacto__texto{margin-bottom: 0; padding-bottom: 0;}
 
 footer p{color:var(--black);}
