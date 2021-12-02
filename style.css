@@ -129,7 +129,7 @@ border-radius: .5rem;}
 .contacto__equipo{ display: flex; flex-direction: column; align-items: center; justify-content: space-between;}
 
 
-.contacto__equipo img{  width: 25rem; height: 25rem; border-radius: 50%;  -webkit-box-shadow: -1px 13px 13px 0px rgba(0,0,0,0.75);
+.contacto__equipo img{  width: 25rem; height: 25rem; border-radius: 50%; margin-bottom: 1rem; -webkit-box-shadow: -1px 13px 13px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: -1px 13px 13px 0px rgba(0,0,0,0.75);
     box-shadow: -1px 13px 13px 0px rgba(0,0,0,0.75);}
 
