@@ -126,8 +126,9 @@ border-radius: .5rem;}
 @media (min-width: 1000px) {.boton{font-size: 3rem;padding: 1rem 3rem;margin-top: 1rem;}
     
 }
+.contacto__equipo{display: grid; grid-template-columns:30% 70% ; margin: 0 2rem; margin-bottom: 2rem;}
 
-.contacto__equipo img{  width: 15rem; height: 15rem; border-radius: 50%; margin-left: 20rem; margin-right: 20rem;  -webkit-box-shadow: -1px 13px 13px 0px rgba(0,0,0,0.75);
+.contacto__equipo img{  width: 15rem; height: 15rem; border-radius: 50%;   -webkit-box-shadow: -1px 13px 13px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: -1px 13px 13px 0px rgba(0,0,0,0.75);
     box-shadow: -1px 13px 13px 0px rgba(0,0,0,0.75);}
 
