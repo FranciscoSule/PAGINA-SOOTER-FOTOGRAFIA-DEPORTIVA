@@ -126,13 +126,12 @@ border-radius: .5rem;}
 @media (min-width: 1000px) {.boton{font-size: 3rem;padding: 1rem 3rem;margin-top: 1rem;}
     
 }
-.contacto__equipo{display: grid; grid-template-columns: 50% 50% ; margin: 0 auto; margin-bottom: 2rem;}
+.contacto__equipo{ margin-bottom: 2rem;}
 
 
 .contacto__equipo img{  width: 25rem; height: 25rem; border-radius: 50%;  margin-left: 5rem; -webkit-box-shadow: -1px 13px 13px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: -1px 13px 13px 0px rgba(0,0,0,0.75);
-    box-shadow: -1px 13px 13px 0px rgba(0,0,0,0.75);}
-.margenarriba{margin-top: 3rem;}
+    box-shadow: -1px 13px 13px 0px rgba(0,0,0,0.75);}.margenarriba{margin-top: 3rem;}
 
 
 @media (min-width: 1000px) {.contacto__equipo{display: grid; margin: 0 auto; margin-bottom: 2rem;
