@@ -24,7 +24,10 @@
 background-color: var(--secondary);
 padding: 1.5rem;}
 
+.contenido{max-width: 120rem;
+    margin: 0 auto 0 auto;}
 
+/* NAVEGACIÓN */
 .navegacion{display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -48,6 +51,8 @@ padding: 1.5rem;}
     @media (min-width: 1000px) {.navegacion{ flex-direction: row;
         justify-content: space-between;}
         .navegacion a{font-size: 3.5rem; padding: 1rem;}}
+
+/* TITULOS Y PARRAFOS */
 
       h1{text-align: center; 
     margin: 0;}
@@ -78,11 +83,12 @@ padding: 1.5rem;}
            
        }
 
+       /* IMG SHOOTER */
       .img__inicio{width: 70rem;
     margin: 20rem auto;}
 
 
-
+/* FONDO */
       .fondo{background-image: url(fondo.jpg);
         background-image: url(fondo.webp);
     background-repeat: no-repeat;
@@ -92,15 +98,16 @@ padding-bottom: 2rem;
 font-family: var(--font);
 font-size: 2.5rem;}
 
-.contenido{max-width: 120rem;
-    margin: 0 auto 0 auto;}
 
+
+/* SOMBRA*/
 .sombraprincipal{-webkit-box-shadow: 0px 7px 15px 8px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 7px 15px 8px rgba(0,0,0,0.75);
     box-shadow: 0px 7px 15px 8px rgba(0,0,0,0.75);
     background-color: var(--grey);
 border-radius: .5rem;}
 
+/*BOTON*/
 .boton  {background-color: var(--primary);
     color: var(--white);
     padding: 2rem 4rem;
@@ -131,6 +138,9 @@ border-radius: .5rem;}
 @media (min-width: 1000px) {.boton{font-size: 3rem;padding: 1rem 3rem;margin-top: 1rem;}
     
 }
+
+/*CONTACTO*/
+
 .contacto__equipo{ display: flex; flex-direction: column; align-items: center; justify-content: space-between;}
 
 .contacto__equipo a{ padding-left: 11rem; padding-right: 11rem;}
@@ -146,16 +156,25 @@ grid-template-columns: 30% 70%;}.margenarriba{margin-top: 10rem}
 
 }
 
+.contacto__texto{margin-bottom: 0; padding-bottom: 0;}
+
 .iconcontacto {background-color: var(--primary); border-radius: 1rem;
 margin:0 1rem 1rem 1rem;}
 
+
+/*ICONO*/
 @media (max-width: 1000px) {
     .icono svg{width: 10rem; height: 10rem;}   
 }
 
 
-.contacto__texto{margin-bottom: 0; padding-bottom: 0;}
 
-footer p{color:var(--black);}
+/*DESCARGA*/
+
 
 .descarga a{ font-family:'Istok Web', sans-serif;}
+
+
+
+/*FOOTER*/
+footer p{color:var(--black);}
