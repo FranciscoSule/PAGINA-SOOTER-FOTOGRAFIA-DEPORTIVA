@@ -8,9 +8,11 @@
         --font: 'Staatliches';
     }
 
-    html { font-size: 62.5%;
-        box-sizing: border-box;
-      }
+ html{   box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  @media (max-width: 1000px ) {html{font-size: 85%;}}
+      
     
      
 
