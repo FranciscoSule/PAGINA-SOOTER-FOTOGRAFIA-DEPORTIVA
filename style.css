@@ -33,7 +33,7 @@ padding: 1.5rem;}
 }
     
     
-    .navegacion a {
+    .navegacion a { 
         color: var(--white);
         font-family:var(--font);
         padding: 1rem;
