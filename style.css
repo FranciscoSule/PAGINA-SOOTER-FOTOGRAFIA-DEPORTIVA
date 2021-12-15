@@ -114,7 +114,9 @@ border-radius: .5rem;}
 /* SERVICIOS */
 .servicios__fotografia{padding-bottom: 2rem;}
 .servicios__fotografia img{width: 50rem; border-radius: .5rem;}
-
+@media (min-width: 768px) {
+    .servicios__fotografia img{width: 30rem;}
+}
 
 .marco__precio{max-width: 30rem; background-color: var(--secondary); text-transform: uppercase; font-weight: bold; font-family:var(--font);
 margin-left: auto; margin-right: auto; border-radius: 2rem; padding: 1rem 0;}
