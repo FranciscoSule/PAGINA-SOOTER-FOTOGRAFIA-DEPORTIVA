@@ -93,7 +93,9 @@ padding: 1.5rem;}
       .fondo{background-image: url(fondo.jpg);
         background-image: url(fondo.webp);
     background-repeat: no-repeat;
-    background-size: cover;}
+    background-size: cover;
+background-position: center;}
+    
 .fondo p{margin-top: 0;
 padding-bottom: 2rem;
 font-family: var(--font);
