@@ -165,7 +165,7 @@ margin-left: auto; margin-right: auto; border-radius: 2rem; padding: 1rem 0;}
 
 .contacto__equipo{ display: flex; flex-direction: column; align-items: center; justify-content: space-between;}
 
-.contacto__equipo a{ padding-left: 5rem; padding-right: 5rem;}
+.contacto__equipo a{ padding-left: 7rem; padding-right: 7rem;}
 
 
 .contacto__equipo img{  width: 25rem; height: 25rem; border-radius: 50%; margin-bottom: 1rem; -webkit-box-shadow: -1px 13px 13px 0px rgba(0,0,0,0.75);
