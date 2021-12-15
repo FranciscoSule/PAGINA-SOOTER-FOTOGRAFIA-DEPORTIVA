@@ -78,14 +78,18 @@ padding: 1.5rem;}
             font-family:'Istok Web', sans-serif;
        color: var(--white);}
 
-       @media (max-width: 1000px) { p{font-size: 2.8rem;}h2{font-size: 3.8rem;}h3{font-size:3.5rem ;}
+       @media (max-width: 768px) { p{font-size: 2.8rem;}h2{font-size: 3.8rem;}h3{font-size:3.5rem ;}
            
        }
 
        /* IMG SHOOTER */
-      .img__inicio{width: 70rem;
-    margin: 20rem auto;}
+       .img__inicio{width: 30rem;
+        margin: 20rem auto;}
 
+@media (min-width: 768px) { .img__inicio{width: 70rem;
+    margin: 20rem auto;}
+    
+}
 
 /* FONDO */
       .fondo{background-image: url(fondo.jpg);
