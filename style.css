@@ -81,8 +81,8 @@ padding: 1.5rem;}
       
 
        /* IMG SHOOTER */
-       .img__inicio{width: 40rem;
-        ;}
+       .img__inicio{width: 35rem;
+        margin: 4rem auto;}
 
 @media (min-width: 768px) { .img__inicio{width: 70rem;
     margin: 20rem auto;}
