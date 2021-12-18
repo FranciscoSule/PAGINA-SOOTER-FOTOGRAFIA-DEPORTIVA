@@ -115,7 +115,9 @@ font-size: 2.5rem;}
     background-image: url(FONDO1.jpg);
 border-radius: .5rem;}
 
-
+.sombra{-webkit-box-shadow: 0px 7px 15px 8px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: 0px 7px 15px 8px rgba(255, 255, 255, 0.75);
+    box-shadow: 0px 7px 15px 8px rgba(255, 255, 255, 0.75);}
 /* SERVICIOS */
 .servicios__fotografia{padding-bottom: 2rem;}
 .servicios__fotografia img{width: 30rem; border-radius: .5rem;}
@@ -147,9 +149,9 @@ margin-left: auto; margin-right: auto; border-radius: 2rem; padding: 1rem 0;}
     justify-content: center;
     margin-right: auto;
     margin-left: auto;
-    -webkit-box-shadow: -1px 13px 13px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: -1px 13px 13px 0px rgba(0,0,0,0.75);
-    box-shadow: -1px 13px 13px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 13px 13px 0px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: -1px 13px 13px 0px rgba(255, 255, 255, 0.75);
+    box-shadow: -1px 13px 13px 0px rgba(255, 255, 255, 0.75);
     margin-bottom: 1.5rem;
 }
 
@@ -168,9 +170,9 @@ margin-left: auto; margin-right: auto; border-radius: 2rem; padding: 1rem 0;}
 .contacto__equipo a{ padding-left: 7rem; padding-right: 7rem;}
 
 
-.contacto__equipo img{  width: 25rem; height: 25rem; border-radius: 50%; margin-bottom: 1rem; -webkit-box-shadow: -1px 13px 13px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: -1px 13px 13px 0px rgba(0,0,0,0.75);
-    box-shadow: -1px 13px 13px 0px rgba(0,0,0,0.75);}
+.contacto__equipo img{  width: 25rem; height: 25rem; border-radius: 50%; margin-bottom: 1rem; -webkit-box-shadow: -1px 13px 13px 0px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: -1px 13px 13px 0px rgba(255, 255, 255, 0.75);
+    box-shadow: -1px 13px 13px 0px rgba(255, 255, 255, 0.75);}
 
 
 @media (min-width: 992px) {.contacto__equipo{display: grid; margin: 0 auto; margin-bottom: 2rem;
