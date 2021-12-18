@@ -52,7 +52,7 @@ padding: 1.5rem;}
     
     @media (min-width: 768px) {.navegacion{ flex-direction: row;
         justify-content: space-between;}
-        .navegacion a{font-size: 2.5rem; padding: 1rem;}}
+        .navegacion a{font-size: 2.5rem; padding: .5rem;}}
 
 /* TITULOS Y PARRAFOS */
 
