@@ -141,7 +141,7 @@ margin: 0;}
 }
 
 .imagen-servicio{flex-direction: column;
-    justify-content: space-between;
+    justify-items: center;
     gap: 2rem;
 
 }
