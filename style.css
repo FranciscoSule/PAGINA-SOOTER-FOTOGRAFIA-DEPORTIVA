@@ -86,8 +86,7 @@ background-color: var(--secondary);}
         display: flex;
         justify-content: center;
         margin: 0 auto;
-        padding-top: 20rem;
-        padding-bottom: 10rem;}
+        padding-top: 10rem;}
 
 @media (min-width: 768px) { .img__inicio{width: 70rem;
     padding-top: 20rem;
