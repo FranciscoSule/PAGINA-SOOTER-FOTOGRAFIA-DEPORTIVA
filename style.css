@@ -140,7 +140,8 @@ margin: 0;}
     .servicios__fotografia img{width: 50rem;}
 }
 
-.imagen-servicio{flex-direction: column;}
+.imagen-servicio{flex-direction: column;
+align-items: center;}
 
 @media (min-width: 768px) {
     .imagen-servicio{
