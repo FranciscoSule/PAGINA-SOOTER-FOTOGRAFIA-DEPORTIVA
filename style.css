@@ -86,7 +86,7 @@ background-color: var(--secondary);}
         display: flex;
         justify-content: center;
         margin: 0 auto;
-        padding-top: 15rem;}
+        padding-top: 200rem;}
 
 @media (min-width: 768px) { .img__inicio{width: 70rem;
     padding-top: 20rem;
@@ -113,7 +113,7 @@ margin: 2rem auto;
 padding: 1rem;}
 
 @media (max-width: 768px) {.fondo p{
-    padding-top: 8rem;
+    padding-top: 6rem;
     font-family: var(--font);
     font-size: 2rem;}
     
