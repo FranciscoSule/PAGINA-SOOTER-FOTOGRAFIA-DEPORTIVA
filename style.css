@@ -95,12 +95,14 @@ padding-bottom: 10rem;}
 }
 
 /* FONDO */
-      .fondo{background-image: url(fondo.jpg);
+      .fondo{
+          background-image: url(fondo.jpg);
         background-image: url(fondo.webp);
     background-repeat: no-repeat;
     background-size: cover;
 background-position: center;
 height: 40rem;}
+
 @media (min-width: 768px) {.fondo{
     height: 65rem;}
 }
