@@ -26,7 +26,7 @@
 background-color: var(--secondary);
 padding: 1.5rem;}
 
-.contenido{width: 120rem;
+.contenido{max-width: 120rem;
     margin: 0 auto 0 auto;}
 
 /* NAVEGACIÓN */
