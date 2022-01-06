@@ -201,7 +201,7 @@ margin-left: auto; margin-right: auto; border-radius: 2rem; padding: 1rem 0;}
 
 .contacto__equipo{ display: flex; flex-direction: column; align-items: center; justify-content: space-between;}
 
-.contacto__equipo a{ padding-left: 7rem; padding-right: 7rem;}
+
 
 
 .contacto__equipo img{  width: 25rem; height: 25rem; border-radius: 50%; margin-bottom: 1rem; -webkit-box-shadow: -1px 13px 13px 0px rgba(255, 255, 255, 0.75);
@@ -209,24 +209,18 @@ margin-left: auto; margin-right: auto; border-radius: 2rem; padding: 1rem 0;}
     box-shadow: -1px 13px 13px 0px rgba(255, 255, 255, 0.75);}
 
 
-@media (min-width: 992px) {.contacto__equipo{display: grid; margin: 0 auto 2rem auto;
-    gap: -2rem;
-grid-template-columns: 40% 60%;}.margenarriba{margin-top: 10rem}
+@media (min-width: 992px) {.contacto__equipo{margin-bottom: 4rem;}
 .contacto__equipo img{width: 20rem; height: 20rem; }
- .contacto__equipo a{margin-left: 0; box-sizing: unset;}
+ .contacto__equipo a{ padding-left: 10rem; padding-right: 10rem;
+}
 
 }
 
-.contacto__texto{margin-bottom: 0; padding-bottom: 0;}
+.contacto__texto{margin-bottom: 0; padding-bottom: 0;
+text-align: center;}
 
 .iconcontacto {background-color: var(--primary); border-radius: 1rem;
 margin:0 1rem 1rem 1rem;}
-
-
-/*ICONO*/
-
-
-
 
 /*DESCARGA*/
 .descarga{padding-bottom: 2rem;}
