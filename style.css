@@ -141,7 +141,8 @@ margin: 0;}
 }
 
 .imagen-servicio{flex-direction: column;
-align-items: center;}
+    justify-content: center;
+}
 
 @media (min-width: 768px) {
     .imagen-servicio{
