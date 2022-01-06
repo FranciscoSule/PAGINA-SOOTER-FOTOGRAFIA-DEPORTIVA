@@ -138,7 +138,7 @@ border-radius: .5rem;}
 .servicios__fotografia img{width: 30rem; border-radius: .5rem;
 }
 @media (min-width: 992px) {
-    .servicios__fotografia img{width: 50rem; margin: 0;}
+    .servicios__fotografia img{width: 50rem; margin: 0; padding-right: 1rem;}
 }
 
 .imagen-servicio{
@@ -151,8 +151,9 @@ border-radius: .5rem;}
 
 @media (min-width: 768px) {
     .imagen-servicio{
-        flex-direction: row;
-    justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2 1fr);
+        gap: 2rem;
     } 
 }
 
