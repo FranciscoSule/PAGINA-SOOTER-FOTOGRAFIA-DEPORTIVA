@@ -111,7 +111,7 @@ height: 35rem;}
 font-family: var(--font);
 font-size: 2.5rem;
 margin: 2rem auto;
-padding: 0;}
+padding: 1rem;}
 
 @media (max-width: 768px) {.fondo p{
     font-family: var(--font);
