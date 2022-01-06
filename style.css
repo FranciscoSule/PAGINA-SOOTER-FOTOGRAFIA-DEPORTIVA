@@ -19,14 +19,14 @@
     body{background-color:rgba(0, 0, 0, 0.87);}
      
 
-      body{ width: min(90%  120rem);}
+      
 
       header{display: flex;
     justify-content: center;
 background-color: var(--secondary);
 padding: 1.5rem;}
 
-.contenido{max-width: 120rem;
+.contenido{width: 120rem;
     margin: 0 auto 0 auto;}
 
 /* NAVEGACIÓN */
@@ -140,14 +140,15 @@ margin-left: auto; margin-right: auto; border-radius: 2rem; padding: 1rem 0;}
 /*BOTON*/
 .boton  {background-color: var(--primary);
     color: var(--white);
-    padding: 1rem 1rem;
-    margin-top: 2rem;
-    font-size: 2rem;
+    padding: 1rem 3rem;
+	margin-top: 1rem;
+	font-size: 2rem;
+	max-width: 40rem;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
     border-radius: .5rem;
-    width: 50%;
+    width: 90%;
     text-align: center;
     border: none;
     display: block;
@@ -161,13 +162,12 @@ margin-left: auto; margin-right: auto; border-radius: 2rem; padding: 1rem 0;}
     margin-bottom: 1.5rem;
 }
 
-
+.boton:hover{cursor: pointer;}
     
 
 
-@media (min-width: 768px) {.boton{font-size: 3rem;padding: 1rem 3rem;margin-top: 1rem;}
     
-}
+
 
 /*CONTACTO*/
 
