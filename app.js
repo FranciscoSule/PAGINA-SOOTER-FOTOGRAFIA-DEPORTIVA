@@ -29,7 +29,7 @@ function navegacionFija(){
 
 function crearGaleria(){
     const galeria = document.querySelector('.galeria-imagenes')
-   for(let i = 1; i<= 8; i++){
+   for(let i = 1; i<= 9; i++){
        const imagen = document.createElement('picture');
        imagen.innerHTML =`
                <img loading="lazy" src="fotos/${i}.jpeg" alt="galeria">`;
