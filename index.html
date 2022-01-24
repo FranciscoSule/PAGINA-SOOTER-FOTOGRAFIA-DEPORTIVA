@@ -20,14 +20,14 @@
 
 <body>
 
-<header>
+<header class="header">
     <nav class="navegacion contenido">
         <a href="index.html">Inicio</a>
         <a href="nosotros.html">Nosotros</a>
         <a href="descarga.html">Descargas</a>
 
     </nav>
-</header >
+</header>
 <div class="fondo ">
    <picture> <source srcset="nueva  blanco.webp" type="image/webp">
         <img class="img__inicio contenido" src="nueva  blanco.png" alt="img-shooter"></picture>
@@ -57,26 +57,18 @@
 
 
 
-<main class="contenido sombraprincipal">
+<main class="contenedor sombraprincipal">
     <h2>Servicios</h2>
     <div class="servicios__fotografia">
 <h3>Fotografia</h3>
 <p>Cobertura de partidos y torneos.<br>Cubrimos tu partido capturando momentos unicos desde la entrada en calor al final del encuentro.<br>
   Tambien seguimos los emocionantes torneos de otro punto de vista fijando jugadas, emociones y festejos.
 </p>
-<div class="imagen-servicio" >
-<div>
-  <img class="contenido sombra" loading="lazy"  src="fotos/WhatsApp Image 2021-04-12 at 5.37.15 PM.jpeg">
-<img class="contenido sombra" loading="lazy" src="fotos/WhatsApp Image 2021-06-12 at 12.08.29 PM.jpeg">
-</div>
+<section  class="galeria contenedor">
+  <h3>Galería</h3>
+  <ul class="galeria-imagenes"></ul>
+</section>
 
-<div>
-  <img class="contenido sombra" loading="lazy"  src="fotos/WhatsApp Image 2021-04-12 at 5.37.15 PM.jpeg">
-  <img class="contenido sombra" loading="lazy" src="fotos/WhatsApp Image 2021-06-12 at 12.08.29 PM.jpeg">
-</div>
-
-
-    </div>
 <section class="precio" >
 <h2>Precios</h2>
 <div class="marco__precio sombra">
@@ -109,6 +101,7 @@
 <footer><p>Shooter Fotografia 2021</p></footer>
 
     <script src="modernizr.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
