@@ -247,7 +247,7 @@ margin-left: auto; margin-right: auto; border-radius: 2rem; padding: 1rem 0;}
       }
 
       .overlay {
-        position: fixed;
+        
         top: 0;
         left: 0;
         right: 0;
@@ -256,11 +256,14 @@ margin-left: auto; margin-right: auto; border-radius: 2rem; padding: 1rem 0;}
         height: 100%;
         display: grid;
         place-items: center;
+        position: fixed;
+        
       }
       .overlay picture {
         display: block;
         max-width: 80rem;
         background-color: rgba(0, 0, 0, 0.5);
+        
       }
 
 .btn-cerrar {
@@ -272,6 +275,7 @@ margin-left: auto; margin-right: auto; border-radius: 2rem; padding: 1rem 0;}
     display: grid;
     place-items: center;
     font-weight: 700;
+    
   }
   .btn-cerrar:hover {
     cursor: pointer;
@@ -312,9 +316,7 @@ margin:0 1rem 1rem 1rem;}
 .descarga a{ font-family:'Istok Web', sans-serif;}
 
 /*form*/
-
-
-  
+ 
 .formulario {
     width: 500px;
     max-width: 100%;
