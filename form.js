@@ -19,13 +19,13 @@ document.querySelector("#submit").addEventListener("click", e => {
           *%0A%0A
           *Nombre y Apellido 👤*%0A
           ${cliente}%0A
-          *📆 de retiro*%0A
+          *📆 del evento*%0A
           ${fecha}%0A
-          *🕒 de retiro*%0A
+          *🕒 del evento*%0A
           ${hora}%0A
-          *Producto*%0A
+          *ciudad*%0A
           ${empleado}%0A
-          *💰 que se desea realizar*%0A
+          *consulta*%0A
           ${servicio}`;
   
     if (cliente === "" || fecha === "" || hora === "") {
