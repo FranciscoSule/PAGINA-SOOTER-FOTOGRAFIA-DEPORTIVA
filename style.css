@@ -416,6 +416,7 @@ background: linear-gradient( rgba(255,255,255,1) 0%, rgba(255, 255, 255, 0.63) 1
     height: 50px;
     margin: 5px;
     padding: 5px;
+    font-size: 1.6rem;
   }
   #respuesta.fail {
     color: red;
