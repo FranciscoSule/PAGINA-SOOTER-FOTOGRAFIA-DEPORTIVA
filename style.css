@@ -331,7 +331,7 @@ margin:0 1rem 1rem 1rem;}
     padding: 20px;
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
     background: rgb(255,255,255);
-background: linear-gradient( rgba(255,255,255,1) 0%, rgba(255, 255, 255, 0.856) 100%);
+background: linear-gradient( rgba(255,255,255,1) 0%, rgba(255, 255, 255, 0.856) 85%,rgba(255, 255, 255, 0.356)100%);
     border-radius: 2rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
